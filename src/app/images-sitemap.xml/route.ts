@@ -1,4 +1,4 @@
-import { NextResponse } from "next";
+import { NextResponse } from "next/server";
 import { siteConfig } from "@/data/siteConfig";
 
 export async function GET() {
