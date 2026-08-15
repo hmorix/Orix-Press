@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   authors: [{ name: siteConfig.person.name, url: `${siteConfig.url}/harsh-sharma` }],
   creator: siteConfig.person.name,
   publisher: siteConfig.publisher.name,
+  verification: {
+    google: "lBvxbFtCOPg6s2fFF15KhPJNMZ7kcPxH3ezQeD3n194",
+  },
   robots: {
     index: true,
     follow: true,
