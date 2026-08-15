@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+process.versions.webcontainer = 'true';
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
@@ -9,6 +11,10 @@ const nextConfig = {
         hostname: '**',
       },
     ],
+  },
+  experimental: {
+    cpus: 1,
+    workerThreads: false,
   },
 };
 
