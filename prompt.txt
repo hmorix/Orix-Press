@@ -1,0 +1,1301 @@
+You are an expert technical SEO engineer, information architect,
+Next.js/TypeScript developer, structured-data engineer, content
+architect and digital publishing engineer.
+
+Build a production-ready personal entity and publishing website
+for HMorix Press.
+
+PRIMARY ENTITY
+
+The website's primary entity is:
+
+Name:
+Harsh Sharma
+
+Professional identity:
+Software Developer / Technology Professional
+
+IMPORTANT:
+Only publish facts that are provided in the source data or verified
+by the site owner.
+
+Never invent:
+- employment
+- clients
+- awards
+- degrees
+- certifications
+- companies
+- relationships
+- family relationships
+- romantic relationships
+- locations
+- cybersecurity credentials
+- testimonials
+- publications
+- research results
+- media appearances
+- social accounts
+
+If information is unknown, display "Not publicly specified" or omit it.
+
+GOAL
+
+Build a high-quality entity website capable of being discovered
+through:
+
+- Harsh Sharma
+- Harsh Sharma developer
+- Harsh Sharma coding
+- Harsh Sharma tech
+- Harsh Sharma biography
+- Harsh Sharma information
+- Harsh Sharma LinkedIn
+- Harsh Sharma Twitter
+- Harsh Sharma Instagram
+- Harsh Sharma Threads
+- Harsh Sharma Uttar Pradesh
+- Harsh Sharma developer
+- Harsh Sharma software developer
+- Harsh Sharma web developer
+- Harsh Sharma AI
+- Harsh Sharma technology
+
+Also support genuine multilingual discovery for Hindi and other
+languages.
+
+Do NOT keyword stuff.
+
+Do NOT generate hundreds of near-identical pages.
+
+Do NOT create doorway pages.
+
+Do NOT create fake backlinks.
+
+Do NOT create fake testimonials.
+
+Do NOT create fake research.
+
+Do NOT create fake biographies.
+
+Do NOT create pages solely to manipulate Google rankings.
+
+Every page must have a genuine purpose and unique useful content.
+
+TECH STACK
+
+Use:
+
+- Next.js latest stable version compatible with Vercel
+- TypeScript
+- React
+- App Router
+- Tailwind CSS
+- semantic HTML
+- responsive design
+- accessible components
+- static generation wherever possible
+- Vercel-compatible architecture
+- no unnecessary backend
+- no database unless required
+
+SITE STRUCTURE
+
+Create:
+
+/
+ /harsh-sharma/
+ /harsh-sharma/biography/
+ /harsh-sharma/developer/
+ /harsh-sharma/projects/
+ /harsh-sharma/skills/
+ /harsh-sharma/research/
+ /harsh-sharma/publications/
+ /harsh-sharma/media/
+ /harsh-sharma/photos/
+ /harsh-sharma/faq/
+
+/blog/
+/research/
+/white-papers/
+/press/
+/testimonials/
+
+/hi/harsh-sharma/
+
+Create additional language routes only when translated
+content is actually available.
+
+HOME PAGE
+
+The homepage should clearly explain:
+
+- HMorix Press
+- Harsh Sharma
+- technology/developer profile
+- publications
+- research
+- projects
+- media
+- photographs
+- social profiles
+
+Do not make the homepage a giant keyword list.
+
+HARSH SHARMA ENTITY PAGE
+
+Create the primary entity page:
+
+/harsh-sharma/
+
+It must contain:
+
+- name
+- professional description
+- profile photograph
+- biography
+- professional focus
+- projects
+- publications
+- research
+- media
+- photographs
+- social profiles
+- contact information if supplied
+- FAQ
+- last updated date
+
+Create Person/ProfilePage structured data where appropriate.
+
+STRUCTURED DATA
+
+Implement valid JSON-LD for appropriate pages.
+
+Use only structured data supported by the actual visible content.
+
+Potential schemas:
+
+- ProfilePage
+- Person
+- Article
+- BlogPosting
+- BreadcrumbList
+- ImageObject
+- WebSite
+- Organization
+- CollectionPage
+
+Do not add fake ratings or fake reviews.
+
+Do not add information that isn't visible or verifiable.
+
+PERSON ENTITY
+
+Create a canonical Person entity.
+
+Use:
+
+@type: Person
+
+Include where appropriate:
+
+name
+url
+image
+description
+sameAs
+jobTitle
+worksFor
+
+Only include values that are actually known.
+
+sameAs must contain real profiles only.
+
+SEO
+
+Every page needs:
+
+- unique title
+- unique meta description
+- canonical URL
+- Open Graph metadata
+- Twitter/X metadata
+- robots metadata where appropriate
+- correct heading hierarchy
+- semantic HTML
+- internal links
+- descriptive anchor text
+- breadcrumbs
+- relevant structured data
+
+Do not repeat the same title across pages.
+
+Do not stuff keywords into titles.
+
+A title should naturally describe the page.
+
+EXAMPLE:
+
+Harsh Sharma | Software Developer & Technology Professional
+
+rather than:
+
+Harsh Sharma Developer Coding Tech Harsh Sharma Developer
+Harsh Sharma Uttar Pradesh India
+
+IMAGES
+
+The public folder will contain approximately 10–20 photographs.
+
+Use:
+
+/public/images/
+
+Support:
+
+- WebP
+- JPG
+- PNG
+
+Create an image gallery.
+
+Every image must use:
+
+- descriptive filename
+- descriptive alt text
+- width
+- height
+- responsive rendering
+- lazy loading where appropriate
+- visible caption when useful
+
+Example:
+
+harsh-sharma-developer.jpg
+
+alt:
+
+"Harsh Sharma, software developer and technology professional"
+
+Do not keyword stuff filenames or alt text.
+
+Create individual image landing pages where useful.
+
+IMAGE SEO
+
+Implement an image sitemap strategy.
+
+Make sure images are discoverable through normal HTML
+<img> elements.
+
+Do not place important images only in CSS backgrounds.
+
+BLOG
+
+Create a publishing system supporting:
+
+- articles
+- technical articles
+- interviews
+- tutorials
+- research summaries
+- project case studies
+- press releases
+
+Each article must have:
+
+- title
+- author
+- publication date
+- modified date
+- hero image
+- article body
+- table of contents where useful
+- related articles
+- author profile
+- breadcrumbs
+- Article/BlogPosting JSON-LD
+
+Do not mass-generate articles.
+
+Each article must provide original value.
+
+RESEARCH
+
+Create:
+
+/research/
+
+Support research papers with:
+
+- title
+- abstract
+- author
+- publication date
+- version
+- DOI field if actually available
+- keywords
+- introduction
+- methodology
+- results
+- conclusion
+- references
+- PDF download
+
+Never invent scientific results.
+
+WHITE PAPERS
+
+Create:
+
+/white-papers/
+
+Support technical white papers.
+
+Suggested legitimate subjects:
+
+- AI-assisted web development
+- full-stack application architecture
+- OCR document processing
+- developer tooling
+- web application performance
+- AI coding agents
+
+Only publish claims supported by the actual document.
+
+PRESS
+
+Create:
+
+/press/
+
+Support legitimate:
+
+- announcements
+- product launches
+- publication announcements
+- project announcements
+- event participation
+
+Do not fabricate media coverage.
+
+TESTIMONIALS
+
+Create:
+
+/testimonials/
+
+But only render testimonials supplied by the administrator.
+
+Each testimonial must have:
+
+- actual quote
+- actual person
+- role/company if authorized
+- permission status
+
+Never generate fake testimonials.
+
+FAQ
+
+Create:
+
+/harsh-sharma/faq/
+
+Answer natural questions:
+
+Who is Harsh Sharma?
+What does Harsh Sharma do?
+Is Harsh Sharma a developer?
+What technologies does Harsh Sharma work with?
+Where can I find Harsh Sharma online?
+What projects has Harsh Sharma worked on?
+What publications has Harsh Sharma written?
+How can I contact Harsh Sharma?
+
+Only answer factual questions using verified site data.
+
+AMBIGUOUS NAME HANDLING
+
+Because Harsh Sharma is a common name, create a neutral
+identity clarification section.
+
+Explain that the website refers to the specific Harsh Sharma
+identified by the profile and linked professional accounts.
+
+Do not claim that unrelated people with the same name are the
+same person.
+
+FAMILY / PERSONAL RELATIONSHIPS
+
+Do not create pages targeting claims such as:
+
+"Harsh Sharma son of..."
+"Harsh Sharma brother of..."
+"Harsh Sharma love..."
+
+unless the administrator explicitly supplies verified,
+appropriate information and confirms that it should be published.
+
+Do not create SEO pages for rumors or private relationships.
+
+LOCATIONS
+
+Do not create pages for:
+
+Hathras
+Agra
+Mathura
+Aligarh
+Vrindavan
+Delhi
+Bengaluru
+Uttar Pradesh
+
+simply because they are keywords.
+
+Mention a location only when there is a real connection.
+
+If location-specific pages are created later, they must contain
+substantial location-specific information and have a legitimate
+purpose.
+
+MULTILINGUAL
+
+Support Hindi using:
+
+/hi/harsh-sharma/
+
+Do not simply machine-translate hundreds of pages.
+
+Translations must be reviewed and provide equivalent useful
+information.
+
+Use hreflang correctly.
+
+For English:
+
+en
+
+For Hindi:
+
+hi-IN
+
+Add additional languages only when content exists.
+
+SITEMAP
+
+Implement:
+
+app/sitemap.ts
+
+Include all canonical indexable pages.
+
+Do not include:
+
+- admin pages
+- draft pages
+- duplicate pages
+- noindex pages
+- query-parameter URLs
+
+ROBOTS
+
+Implement:
+
+app/robots.ts
+
+Allow search engine crawling of public content.
+
+Do not block:
+
+/harsh-sharma/
+/blog/
+/research/
+/white-papers/
+/images/
+
+Do not expose private/admin routes.
+
+SEARCH CONSOLE
+
+Prepare documentation for:
+
+- Google Search Console
+- sitemap submission
+- URL inspection
+- indexing monitoring
+- Core Web Vitals monitoring
+- image indexing monitoring
+
+AI SEARCH / AEO / GEO
+
+Do not create fake AI optimization files.
+
+Instead optimize for retrieval:
+
+- clear entity identity
+- direct answers
+- semantic HTML
+- concise definitions
+- factual consistency
+- internal links
+- authoritative citations
+- structured data
+- crawlability
+- original research
+- high-quality images
+- author information
+- publication dates
+- update dates
+- source references
+
+Create an "AI-readable facts" section on the entity page that
+summarizes verified information in normal human-readable prose.
+
+Do not hide keyword lists.
+
+INTERNAL LINKING
+
+Create a strong graph:
+
+Home
+ ↓
+Harsh Sharma
+ ↓
+Biography
+ ↓
+Developer
+ ↓
+Projects
+ ↓
+Research
+ ↓
+Publications
+ ↓
+Blog
+ ↓
+Photos
+ ↓
+Social profiles
+
+Articles should link to relevant project and author pages.
+
+Research papers should link to author and publication pages.
+
+Photos should link to the main entity page.
+
+BLOG CONTENT PLAN
+
+Create initial article placeholders/topics:
+
+1. Who Is Harsh Sharma?
+2. Harsh Sharma — Software Developer Profile
+3. Harsh Sharma and Modern Web Development
+4. Harsh Sharma's Approach to Software Engineering
+5. Building Modern Web Applications
+6. AI-Assisted Web Development
+7. OCR and Document Processing
+8. Building Developer Tools
+9. Full-Stack Development Architecture
+10. Lessons From Building Software Projects
+
+These are topics, not fabricated facts.
+
+Generate actual content only from supplied source material.
+
+PDF
+
+Create a publication area for PDF documents.
+
+Use accessible PDFs.
+
+Each PDF should have:
+
+- title
+- author
+- date
+- version
+- abstract
+- body
+- references
+- website
+- author profile
+
+The corresponding HTML page must contain a useful summary.
+
+PERFORMANCE
+
+Optimize for:
+
+- Core Web Vitals
+- mobile
+- image compression
+- responsive images
+- minimal JavaScript
+- static rendering
+- font optimization
+- caching
+
+Do not install unnecessary dependencies.
+
+SECURITY
+
+Do not expose secrets.
+
+Use environment variables only when necessary.
+
+Do not put API keys in the client.
+
+VERCEL
+
+The project must deploy using Vercel's free/appropriate
+Next.js deployment model.
+
+Provide:
+
+npm install
+npm run dev
+npm run build
+npm start
+
+and ensure:
+
+npm run build
+
+passes before final output.
+
+SEO VALIDATION
+
+Create an internal development checklist verifying:
+
+- every page has exactly one useful H1
+- title exists
+- description exists
+- canonical exists
+- robots metadata is correct
+- OG image exists where appropriate
+- structured data is valid
+- internal links exist
+- images have alt text
+- images have width/height
+- sitemap contains canonical URLs
+- robots.txt works
+- no accidental noindex
+- no duplicate titles
+- no duplicate descriptions
+- no broken links
+- no orphan pages
+- mobile layout works
+- accessibility basics pass
+
+IMPORTANT SEO RULE
+
+Do not attempt to guarantee:
+
+"Rank #1 on Google"
+
+No SEO system can guarantee this.
+
+Build for long-term authority, relevance, crawlability,
+trustworthiness and useful content.
+
+OUTPUT
+
+Generate the complete project structure and all necessary
+TypeScript/TSX files.
+
+Use clean reusable components.
+
+Use a central site configuration file so the administrator
+can update:
+
+- name
+- biography
+- social links
+- images
+- location
+- publications
+- projects
+- contact details
+
+without editing every page.
+
+Use placeholders where information has not been supplied.
+
+Do not invent missing information.
+
+
+17. What I'd target first
+Don't try to rank all your keywords simultaneously.
+Tier 1
+Harsh Sharma
+Harsh Sharma developer
+Harsh Sharma coding
+Harsh Sharma tech
+Harsh Sharma biography
+Harsh Sharma information
+Tier 2
+Harsh Sharma LinkedIn
+Harsh Sharma Twitter
+Harsh Sharma Instagram
+Harsh Sharma Threads
+Harsh Sharma software developer
+Harsh Sharma web developer
+Tier 3
+Harsh Sharma Uttar Pradesh
+Harsh Sharma Hindi
+Harsh Sharma India
+Harsh Sharma technology
+Tier 4
+Only if factually justified:
+Harsh Sharma entrepreneur
+Harsh Sharma businessman
+Harsh Sharma cybersecurity
+Harsh Sharma cyber security consultant
+18. The actual ranking strategy
+Think of this as:
+                   Google
+                     │
+            ┌────────┴────────┐
+            │                 │
+       Classic Search      AI Search
+            │                 │
+            └────────┬────────┘
+                     │
+              HMorix Press
+                     │
+              Harsh Sharma
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+   Biography      Developer      Projects
+       │             │             │
+       ├─────────────┼─────────────┤
+       │             │             │
+    Research       Blog        Publications
+       │             │             │
+       └─────────────┼─────────────┘
+                     │
+             External evidence
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+     GitHub       LinkedIn      Socials
+That creates an entity ecosystem, rather than a collection of spam pages.
+Google's current guidance also emphasizes unique, valuable content, good page experience, accessible/indexable content, and structured data matching visible content. �
+Google for Developers
+And as of June 2026, Google has begun rolling out dedicated Search Console reporting for visibility in generative AI features to a subset of sites, so you'll eventually have better first-party measurement of AI-search visibility rather than relying purely on third-party “GEO score” tools. �
+Google for Developers
+
+
+14. Backlinks
+Don't create a backlink farm.
+Build legitimate references from:
+GitHub
+LinkedIn
+Dev.to
+Medium
+Hashnode
+YouTube
+Research repositories
+Open-source projects
+Personal portfolio
+HMorix
+Conference/event profiles
+University/community profiles
+Relevant technology communities
+
+Sitemap
+Create:
+/public/sitemap.xml
+For a Next.js application, preferably use a dynamic sitemap:
+// app/sitemap.ts
+
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = "https://YOUR-DOMAIN.com";
+
+  const pages = [
+    "",
+    "/harsh-sharma",
+    "/harsh-sharma/biography",
+    "/harsh-sharma/developer",
+    "/harsh-sharma/projects",
+    "/harsh-sharma/publications",
+    "/harsh-sharma/research",
+    "/harsh-sharma/photos",
+    "/harsh-sharma/faq",
+    "/blog",
+    "/research",
+    "/white-papers",
+    "/press",
+  ];
+
+  return pages.map((path) => ({
+    url: `${base}${path}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: path === "/harsh-sharma" ? 1 : 0.7,
+  }));
+}
+10. Robots
+// app/robots.ts
+
+import { MetadataRoute } from "next";
+
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+    ],
+    sitemap: "https://YOUR-DOMAIN.com/sitemap.xml",
+  };
+}
+Don't block:
+/images/
+/photos/
+/harsh-sharma/
+/blog/
+if you want them indexed.
+11. Image sitemap
+Because you're specifically targeting Google Images, I'd add an image sitemap too.
+For example:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://YOUR-DOMAIN.com/harsh-sharma/photos</loc>
+
+    <image:image>
+      <image:loc>
+        https://YOUR-DOMAIN.com/images/harsh-sharma-profile.jpg
+      </image:loc>
+    </image:image>
+  </url>
+
+</urlset>
+Google specifically documents image sitemaps as a way to help it discover images. �
+Google for Developers
+12. PDFs / white papers
+Yes, PDFs can be useful—but they should be real publications, not 50 PDFs repeating your name.
+I'd create:
+Harsh Sharma — Developer Profile
+Harsh Sharma — Technical Portfolio
+Harsh Sharma — Research & Publications
+AI-Assisted Web Development — Research Paper
+OCR-Based Document Processing — Technical White Paper
+Modern Full-Stack Web Development — Technical White Paper
+Each PDF should contain:
+Title
+Author
+Publication date
+Version
+Abstract
+Keywords
+Introduction
+Research/problem
+Methodology
+Results
+Discussion
+References
+Author information
+Website
+And make a corresponding HTML page:
+/research/ai-assisted-web-development/
+that links to:
+/research/ai-assisted-web-development.pdf
+The HTML page is especially important because it gives search engines accessible textual content.
+
+Build an actual content cluster
+I'd create approximately 20–30 genuinely useful pages, not 200 keyword pages.
+Identity
+/harsh-sharma/
+/harsh-sharma/biography/
+/harsh-sharma/developer/
+/harsh-sharma/projects/
+/harsh-sharma/skills/
+/harsh-sharma/publications/
+/harsh-sharma/research/
+/harsh-sharma/media/
+/harsh-sharma/photos/
+/harsh-sharma/faq/
+Technology
+/blog/harsh-sharma-developer/
+/blog/harsh-sharma-coding/
+/blog/software-development/
+/blog/web-development/
+/blog/artificial-intelligence/
+/blog/full-stack-development/
+Research
+/research/
+/research/web-development/
+/research/artificial-intelligence/
+/research/ocr/
+/research/software-engineering/
+Publications
+/white-papers/
+/white-papers/ai-web-development/
+/white-papers/ocr/
+/white-papers/software-engineering/
+Languages
+/hi/harsh-sharma/
+/hi/harsh-sharma/biography/
+/hi/harsh-sharma/developer/
+Only add other languages when you have properly localized content.
+8. AEO/GEO structure
+Every important page should answer questions directly.
+For example:
+Who is Harsh Sharma?
+
+What does Harsh Sharma do?
+
+Is Harsh Sharma a developer?
+
+What technologies does Harsh Sharma work with?
+
+Where is Harsh Sharma based?
+
+What projects has Harsh Sharma created?
+
+Where can I find Harsh Sharma online?
+
+What is Harsh Sharma's professional background?
+Then answer each in 2–4 clear sentences before providing deeper information.
+This is much better for AI retrieval than a page containing:
+Harsh Sharma
+Harsh Sharma
+Harsh Sharma developer
+Harsh Sharma coding
+Harsh Sharma developer
+...
+Google's current guidance explicitly says AI search still relies on crawlable/indexable content and traditional
+
+
+publish the personal relationship claims as facts
+You included searches such as:
+Harsh Sharma son of Nandkishor Sharma
+Harsh Sharma son of Seema Sharma
+Harsh Sharma brother of Shivani Sharma
+Harsh Sharma brother of Shiva Sharma
+Harsh Sharma love Apoorva Kaushal
+Harsh Sharma love Appu
+Harsh love Apoorva
+Harsh love Appu Hathras
+
+Instead, if these searches are important to you, you can have a neutral FAQ such as:
+Are all people named Harsh Sharma the same person?
+
+No. "Harsh Sharma" is a common name. This website refers specifically
+to the Harsh Sharma identified in the profile and linked professional
+accounts on this website.
+That is much safer for both search quality and your identity.
+
+Google Images strategy
+This part is absolutely worth doing.
+Google recommends using normal HTML <img> elements, descriptive image context, image landing pages, and image sitemaps to help images get discovered. �
+Google for Developers
+For your 10–20 photographs, don't simply dump them into:
+/public/images/
+Create individual landing pages.
+For example:
+/public/images/harsh-sharma-developer-01.webp
+/public/images/harsh-sharma-coding-02.webp
+/public/images/harsh-sharma-technology-03.webp
+/public/images/harsh-sharma-profile-04.webp
+And:
+/photos/harsh-sharma-developer
+/photos/harsh-sharma-coding
+/photos/harsh-sharma-technology
+Each image should have:
+<img
+  src="/images/harsh-sharma-developer-01.webp"
+  alt="Harsh Sharma, developer and technology professional"
+  width={1200}
+  height={800}
+  loading="lazy"
+/>
+Don't use:
+harsh-sharma-hathras-agra-mathura-developer-coding-tech.jpg
+That's keyword stuffing.
+Use:
+harsh-sharma-developer.jpg
+harsh-sharma-coding.jpg
+harsh-sharma-technology.jpg
+
+The most important page: /harsh-sharma/
+This should become your entity hub.
+It should contain:
+Harsh Sharma
+Software Developer & Technology Professional
+
+About
+Biography
+Professional work
+Projects
+Technical interests
+Publications
+Research
+Photos
+Media
+Social profiles
+Frequently asked questions
+Contact
+Add ProfilePage structured data. Google specifically supports ProfilePage structured data for pages focused on a single person associated with the website. �
+Google for Developers
+The page should also link to:
+LinkedIn
+GitHub
+Twitter/X
+Instagram
+Threads
+HMorix
+Projects
+Publications
+Only use your actual accounts.
+
+
+TSX component for the entity page
+For your Next.js/TSX site, I'd build reusable components rather than hard-code 50 pages.
+Example:
+// components/PersonSchema.tsx
+
+type PersonSchemaProps = {
+  name: string;
+  url: string;
+  image: string;
+  description: string;
+  sameAs: string[];
+};
+
+export function PersonSchema({
+  name,
+  url,
+  image,
+  description,
+  sameAs,
+}: PersonSchemaProps) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": `${url}#person`,
+    name,
+    url,
+    image,
+    description,
+    sameAs,
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(data),
+      }}
+    />
+  );
+}
+Then:
+// app/harsh-sharma/page.tsx
+
+import { PersonSchema } from "@/components/PersonSchema";
+
+const profile = {
+  name: "Harsh Sharma",
+  url: "https://YOUR-DOMAIN.com/harsh-sharma/",
+  image: "https://YOUR-DOMAIN.com/images/harsh-sharma-profile.jpg",
+  description:
+    "Harsh Sharma is a software developer and technology professional.",
+  sameAs: [
+    "YOUR-LINKEDIN-URL",
+    "YOUR-GITHUB-URL",
+    "YOUR-TWITTER-URL",
+    "YOUR-INSTAGRAM-URL",
+  ],
+};
+
+export default function HarshSharmaPage() {
+  return (
+    <>
+      <PersonSchema {...profile} />
+
+      <main>
+        <article>
+          <header>
+            <h1>Harsh Sharma</h1>
+
+            <p>
+              Software Developer & Technology Professional
+            </p>
+          </header>
+
+          <section>
+            <h2>About Harsh Sharma</h2>
+
+            <p>
+              Harsh Sharma is a software developer and technology
+              professional interested in software engineering, web
+              development, artificial intelligence and related
+              technologies.
+            </p>
+          </section>
+
+          <section>
+            <h2>Professional Work</h2>
+
+            <p>
+              Explore Harsh Sharma's projects, technical work,
+              publications and research.
+            </p>
+          </section>
+
+          <section>
+            <h2>Profiles</h2>
+
+            <ul>
+              {profile.sameAs.map((url) => (
+                <li key={url}>
+                  <a
+                    href={url}
+                    rel="me"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {url}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </article>
+      </main>
+    </>
+  );
+}
+There's a small JSX correction needed here: don't put rel twice. Use:
+<a
+  href={url}
+  rel="me noopener noreferrer"
+  target="_blank"
+>
+
+The better strategy is to make HMorix Press the authoritative publisher about Harsh Sharma, while every page has a real purpose and connects back to a single, consistent identity.
+Google also says there isn't a separate “magic” AEO/GEO optimization or special AI file required: the same technical SEO, useful content, crawlability, structured data, internal linking, and people-first content underpin AI Overviews/AI Mode. �
+Google for Developers +1
+1. The architecture I recommend
+Use something like:
+HMorix Press
+│
+├── /harsh-sharma/
+│   ├── /                ← canonical identity/profile
+│   ├── /biography/
+│   ├── /developer/
+│   ├── /coding/
+│   ├── /projects/
+│   ├── /research/
+│   ├── /publications/
+│   ├── /media/
+│   ├── /photos/
+│   ├── /faq/
+│   └── /contact/
+│
+├── /blog/
+│   ├── who-is-harsh-sharma/
+│   ├── harsh-sharma-developer/
+│   ├── harsh-sharma-coding/
+│   ├── web-development/
+│   ├── software-engineering/
+│   └── ...
+│
+├── /research/
+│   ├── ...
+│
+├── /white-papers/
+│   ├── ...
+│
+├── /press/
+│   ├── ...
+│
+├── /photos/
+│   ├── harsh-sharma-01/
+│   ├── harsh-sharma-02/
+│   └── ...
+│
+├── /hi/
+│   └── harsh-sharma/
+│
+├── /en/
+│   └── harsh-sharma/
+│
+├── /bn/
+├── /mr/
+└── /other-languages/
+Important: don't create /harsh-sharma-hathras, /harsh-sharma-agra, /harsh-sharma-mathura, etc. unless each location has a genuine reason to exist. Google specifically calls out blocks of city/region names and unnatural repetition as keyword stuffing. �
+Google for Developers
+Instead, have one authoritative profile that naturally says where you are based/connected if that information is actually true and useful.
+2. Your keyword groups
+I'd organize your keywords into entities rather than trying to put every phrase on every page.
+Core entity
+Harsh Sharma
+Harsh Sharma developer
+Harsh Sharma coding
+Harsh Sharma tech
+Harsh Sharma information
+Harsh Sharma biography
+Who is Harsh Sharma
+Harsh Sharma India
+Professional
+Harsh Sharma developer
+Harsh Sharma software developer
+Harsh Sharma web developer
+Harsh Sharma entrepreneur
+Harsh Sharma businessman
+Harsh Sharma technology
+Harsh Sharma cybersecurity
+Harsh Sharma cyber security consultant
+Harsh Sharma cyber security analyst
+Only publish the cybersecurity consultant/analyst/businessman/entrepreneur descriptions if they're accurate. Don't manufacture credentials merely because they're keywords.
+Social/entity discovery
+Harsh Sharma LinkedIn
+Harsh Sharma Twitter
+Harsh Sharma Instagram
+Harsh Sharma Threads
+Harsh Sharma social media
+These should point to your real profiles, preferably from a central profile page.
+Geography
+Harsh Sharma Uttar Pradesh
+Harsh Sharma Hathras
+Harsh Sharma Agra
+Harsh Sharma Mathura
+Harsh Sharma Aligarh
+Harsh Sharma Vrindavan
+Harsh Sharma Delhi
+Harsh Sharma Bengaluru
+Again, only claim a location when there is a factual connection.
+Languages
+Harsh Sharma in Hindi
+Harsh Sharma हिंदी
+Harsh Sharma biography Hindi
+Who is Harsh Sharma in Hindi
+Harsh Sharma information Hindi
+Harsh Sharma मराठी
+Harsh Sharma বাংলা
+Harsh Sharma English
+For translations, create real localized versions, not automated pages where only the name/keywords are translated. Google specifically warns that automated transformations such as translating content without adding value can fall under scaled content abuse. �
+Google for Developers
+Ambiguous-name queries
+You mentioned things such as:
+Harsha Sharma
+Hershey Sharma
+Harsh Sharma Cheeku
+Sharma Harsh
+I'd handle these with a “Name variations & search clarification” section rather than pretending they are your actual names.
+For example:
+“Harsh Sharma is sometimes searched using variations such as Sharma Harsh or Harsha Sharma. This website concerns Harsh Sharma, the developer and technology professional described on this site.”
+Only include variations that genuinely occur or are useful for clarification.

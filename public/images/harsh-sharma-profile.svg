@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="1200" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid & Editorial Elements -->
+  <g stroke="#334155" stroke-width="1" opacity="0.3">
+    <line x1="100" y1="0" x2="100" y2="1200"/>
+    <line x1="1100" y1="0" x2="1100" y2="1200"/>
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="1100" x2="1200" y2="1100"/>
+  </g>
+  
+  <!-- Avatar Silhouette / Professional Representation -->
+  <circle cx="600" cy="500" r="220" fill="#334155" stroke="#475569" stroke-width="4"/>
+  <circle cx="600" cy="430" r="110" fill="#94a3b8"/>
+  <path d="M420 680 Q600 580 780 680 Q820 780 820 840 L380 840 Q380 780 420 680 Z" fill="#94a3b8"/>
+  
+  <!-- Verified Badge -->
+  <circle cx="750" cy="360" r="40" fill="#0284c7"/>
+  <path d="M738 360 L746 368 L762 352" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Typography & Entity Attribution -->
+  <text x="600" y="930" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="52" fill="#f8fafc" text-anchor="middle" letter-spacing="-1">HARSH SHARMA</text>
+  <text x="600" y="985" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="26" fill="#38bdf8" text-anchor="middle" letter-spacing="2">SOFTWARE DEVELOPER</text>
+  <text x="600" y="1035" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="20" fill="#94a3b8" text-anchor="middle">HMORIX PRESS · CANONICAL ENTITY</text>
+</svg>

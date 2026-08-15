@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" width="1600" height="1066">
+  <rect width="1600" height="1066" fill="#090d16"/>
+  <rect x="250" y="160" width="1100" height="746" rx="16" fill="#111827" stroke="#374151" stroke-width="2"/>
+  
+  <text x="800" y="270" font-family="system-ui, sans-serif" font-weight="800" font-size="38" fill="#f9fafb" text-anchor="middle">System Architecture &amp; Data Contracts</text>
+  <text x="800" y="320" font-family="system-ui, sans-serif" font-weight="500" font-size="20" fill="#38bdf8" text-anchor="middle">Decoupled UI Layer ⇄ TypeScript Data Interface ⇄ Edge Runtime</text>
+  
+  <g transform="translate(350, 400)">
+    <rect x="0" y="0" width="240" height="140" rx="8" fill="#1f2937" stroke="#38bdf8" stroke-width="2"/>
+    <text x="120" y="60" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#f9fafb" text-anchor="middle">Presentation</text>
+    <text x="120" y="90" font-family="system-ui, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle">Next.js App Router</text>
+  </g>
+  
+  <path d="M 610 470 L 670 470" stroke="#60a5fa" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <g transform="translate(690, 400)">
+    <rect x="0" y="0" width="240" height="140" rx="8" fill="#1f2937" stroke="#10b981" stroke-width="2"/>
+    <text x="120" y="60" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#f9fafb" text-anchor="middle">Domain Layer</text>
+    <text x="120" y="90" font-family="system-ui, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle">TypeScript Contracts</text>
+  </g>
+  
+  <path d="M 950 470 L 1010 470" stroke="#60a5fa" stroke-width="3"/>
+  
+  <g transform="translate(1030, 400)">
+    <rect x="0" y="0" width="240" height="140" rx="8" fill="#1f2937" stroke="#f59e0b" stroke-width="2"/>
+    <text x="120" y="60" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#f9fafb" text-anchor="middle">Storage / Edge</text>
+    <text x="120" y="90" font-family="system-ui, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle">Static / DB Ready</text>
+  </g>
+  
+  <text x="800" y="740" font-family="system-ui, sans-serif" font-size="16" fill="#9ca3af" text-anchor="middle">Architectural Reference Model · Authored by Harsh Sharma</text>
+</svg>

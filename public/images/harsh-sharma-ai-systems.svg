@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" width="1600" height="1066">
+  <rect width="1600" height="1066" fill="#030712"/>
+  <rect x="200" y="160" width="1200" height="746" rx="20" fill="#111827" stroke="#1f2937" stroke-width="2"/>
+  
+  <circle cx="800" cy="450" r="160" fill="#1f2937" stroke="#3b82f6" stroke-width="3"/>
+  <circle cx="800" cy="450" r="100" fill="#111827" stroke="#60a5fa" stroke-width="2"/>
+  <text x="800" y="445" font-family="system-ui, sans-serif" font-weight="800" font-size="28" fill="#f9fafb" text-anchor="middle">LLM &amp; AGENTS</text>
+  <text x="800" y="480" font-family="system-ui, sans-serif" font-weight="600" font-size="16" fill="#60a5fa" text-anchor="middle">Type Guardrails</text>
+  
+  <text x="800" y="720" font-family="system-ui, sans-serif" font-weight="700" font-size="32" fill="#f9fafb" text-anchor="middle">AI-Assisted Web Engineering Architecture</text>
+  <text x="800" y="770" font-family="system-ui, sans-serif" font-size="18" fill="#9ca3af" text-anchor="middle">Research &amp; Systems Analysis · Harsh Sharma · HMorix Press</text>
+</svg>

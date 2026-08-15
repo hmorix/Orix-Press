@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" width="1600" height="1066">
+  <defs>
+    <linearGradient id="devBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1066" fill="url(#devBg)"/>
+  
+  <!-- Code editor mockup background -->
+  <rect x="150" y="140" width="1300" height="786" rx="16" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <circle cx="190" cy="180" r="10" fill="#ef4444"/>
+  <circle cx="220" cy="180" r="10" fill="#f59e0b"/>
+  <circle cx="250" cy="180" r="10" fill="#10b981"/>
+  
+  <!-- Code lines -->
+  <rect x="200" y="240" width="300" height="20" rx="4" fill="#38bdf8" opacity="0.8"/>
+  <rect x="240" y="280" width="450" height="16" rx="4" fill="#94a3b8" opacity="0.6"/>
+  <rect x="240" y="310" width="380" height="16" rx="4" fill="#94a3b8" opacity="0.6"/>
+  <rect x="280" y="340" width="520" height="16" rx="4" fill="#a855f7" opacity="0.7"/>
+  <rect x="280" y="370" width="410" height="16" rx="4" fill="#38bdf8" opacity="0.7"/>
+  <rect x="240" y="400" width="200" height="16" rx="4" fill="#94a3b8" opacity="0.6"/>
+  <rect x="200" y="440" width="350" height="20" rx="4" fill="#10b981" opacity="0.8"/>
+  
+  <!-- Editorial Badge Overlay -->
+  <rect x="1000" y="650" width="400" height="220" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <text x="1030" y="700" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="22" fill="#f8fafc">Harsh Sharma</text>
+  <text x="1030" y="735" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="16" fill="#38bdf8">Software Developer &amp; Architecture</text>
+  <text x="1030" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#94a3b8">Next.js · TypeScript · Systems</text>
+  <text x="1030" y="815" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748b">Verified HMorix Press Archive</text>
+</svg>

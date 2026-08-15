@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1066" width="1600" height="1066">
+  <rect width="1600" height="1066" fill="#0f172a"/>
+  <rect x="200" y="150" width="1200" height="766" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  
+  <text x="800" y="300" font-family="system-ui, sans-serif" font-weight="800" font-size="44" fill="#f8fafc" text-anchor="middle">Technology &amp; Research Stack</text>
+  <text x="800" y="350" font-family="system-ui, sans-serif" font-weight="500" font-size="22" fill="#38bdf8" text-anchor="middle">Next.js · TypeScript · Edge Runtimes · AI Automation</text>
+  
+  <g transform="translate(300, 420)">
+    <rect x="0" y="0" width="280" height="180" rx="12" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#f8fafc" text-anchor="middle">Web Systems</text>
+    <text x="140" y="110" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Server Components</text>
+    <text x="140" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Sub-second TTFB</text>
+  </g>
+  
+  <g transform="translate(660, 420)">
+    <rect x="0" y="0" width="280" height="180" rx="12" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#f8fafc" text-anchor="middle">AI &amp; Tooling</text>
+    <text x="140" y="110" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Structured Outputs</text>
+    <text x="140" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Document Pipelines</text>
+  </g>
+  
+  <g transform="translate(1020, 420)">
+    <rect x="0" y="0" width="280" height="180" rx="12" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+    <text x="140" y="70" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#f8fafc" text-anchor="middle">Entity Schema</text>
+    <text x="140" y="110" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">JSON-LD Graphs</text>
+    <text x="140" y="135" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">Knowledge Indexing</text>
+  </g>
+  
+  <text x="800" y="780" font-family="system-ui, sans-serif" font-size="18" fill="#64748b" text-anchor="middle">Harsh Sharma · Official Technical Repository Archive</text>
+</svg>
